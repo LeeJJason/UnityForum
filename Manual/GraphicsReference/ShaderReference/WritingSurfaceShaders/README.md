@@ -47,7 +47,7 @@ struct SurfaceOutputStandardSpecular
 ```
 
 ## 例子
-参考 [Surface Shader Examples](SurfaceShaderExamples/README.md), [Surface Shader Custom Lighting Examples](SurfaceShaderCustomLightingExamples/README.md) and [Surface Shader Tessellation](SurfaceShaderTessellation/README.md) 页面.
+参考 [Surface Shader Examples](SurfaceShaderExamples/README.md), [Surface Shader Custom Lighting Examples](SurfaceShaderLightingExamples/README.md) and [Surface Shader Tessellation](SurfaceShaderTessellation/README.md) 页面.
 
 
 ## Surface Shader 编译指令
