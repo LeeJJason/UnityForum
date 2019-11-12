@@ -73,8 +73,8 @@ Unity支持多种渲染API（例如Direct3D 11和OpenGL），默认情况下，�
 * [Predefined Shader preprocessor macros](PredefinedShaderPreprocessorMacros/README.md)
 * [Built-in shader helper functions](Built-inShaderHelperFunctions/README.md)
 * [Built-in shader variables](Built-inShaderVariables/README.md)
-* ~~[Making multiple shader program variants](MakingMultipleShaderProgramVariants/README.md)~~
-* ~~[GLSL Shader programs](GLSLShaderPrograms/README.md)~~
+* [Making multiple shader program variants](MakingMultipleShaderProgramVariants/README.md)
+* [GLSL Shader programs](GLSLShaderPrograms/README.md)
 * [Shading Language used in Unity](ShadingLanguageUsedInUnity/README.md)
 * [Shader Compilation Target Levels](ShaderCompilationTargetLevels/README.md)
 * [Shader data types and precision](ShaderDataTypesAndPrecision/README.md)
