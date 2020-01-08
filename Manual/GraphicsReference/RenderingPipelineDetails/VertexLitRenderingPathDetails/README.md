@@ -1,0 +1,1 @@
+Vertex Lit Rendering Path Details
