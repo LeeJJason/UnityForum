@@ -1,0 +1,15 @@
+# ViewData persistence
+ViewData API解决了具有特定于UI的状态（而不是数据的一部分），可以在域重新加载后重新启动并重新启动编辑器的问题。
+这个想法是在每个EditorWindow上都有一个持久的数据存储。
+每个VisualElement都有一个viewDataKey，必须对其进行设置才能启用ViewData持久性。
+
+## Usage
+要为支持它的元素启用视图数据持久性，请将viewDataKey设置为EditorWindow中的唯一键。
+
+只要元素具有有效的viewDataKey，就可以启用视图数据的持久性。
+唯一的例外是，元素位于其父级的影子树中，而不是其逻辑父级的contentContainer的物理子级时。
+在这种情况下，父级必须设置自己的viewDataKey，以使其影子树中的子级得以持久。
+
+例如，在ScrollView中，每个滚动条都有自己的viewDataKey，在ScrollView元素中唯一。
+当ScrollView没有设置键时，滚动条将不会保留。
+否则，滚动条会将其viewDataKey与父viewDataKey组合在一起以创建全局唯一键。
