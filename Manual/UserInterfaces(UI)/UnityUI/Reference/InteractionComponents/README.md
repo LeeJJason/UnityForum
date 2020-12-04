@@ -1,0 +1,10 @@
+# [Interaction Components](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/comp-UIInteraction.html)
+UI系统中的[交互组件](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UIInteractionComponents.html)处理交互，例如鼠标或触摸事件以及使用键盘或控制器的交互。
+* [Selectable Base Class](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Selectable.html)
+* [Button](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Button.html)
+* [Toggle](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Toggle.html)
+* [Toggle Group](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-ToggleGroup.html)
+* [Slider](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Slider.html)
+* [Scrollbar](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-Scrollbar.html)
+* [Scroll Rect](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-ScrollRect.html)
+* [InputField](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-InputField.html)
